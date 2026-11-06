@@ -1,0 +1,4 @@
+interface:
+  display_name: "操作风险门禁"
+  short_description: "用 jev 审查写入风险，高风险操作必须由用户二次确认"
+  default_prompt: "使用 $operation-risk-gate，在执行任何写入或副作用操作前进行安全审查。"
